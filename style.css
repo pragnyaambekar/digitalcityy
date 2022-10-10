@@ -1,0 +1,51 @@
+body{
+    background-image: url("images/background2.jpeg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.first{
+    display:flex;
+    justify-content:center;
+    margin-top: 6%;
+}
+h1{
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+.admin,.employee{
+    line-height:1.8;
+    background-color:#ffffff;
+    padding:50px;
+    border-radius: 30px;
+    border: 6px solid rgba(37, 36, 36, 0.816);
+    margin-right: 50px;
+}
+label{
+    font-size: 17px;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid #4D4C7D;
+    padding:10px;
+}
+.admin button,.employee button{
+        width: 70%;
+        border-radius: 10px;
+        border:none;
+        padding:20px;
+        font-weight: bold;
+        font-size:15px;
+        margin: 20px;
+        background-color: rgba(54, 189, 54, 0.648);
+        color:black;
+      
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    width: 13%;
+}
